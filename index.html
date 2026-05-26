@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Abarna J - Software Engineer portfolio built with interactive UI, smooth animations, and modern frontend design." />
+  <title>Abarna J | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+  <div class="noise"></div>
+  <div class="cursor-glow"></div>
+  
+  <div class="page-shell">
+    <header class="site-header glass" id="top">
+      <a href="#hero" class="brand">
+        <span class="brand-mark">AJ</span>
+        <span class="brand-text">Abarna J</span>
+      </a>
+      <nav class="nav" id="navMenu">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+          <span class="theme-icon sun">☀</span>
+          <span class="theme-icon moon">☾</span>
+        </button>
+        <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero section" id="hero">
+        <div class="hero-copy reveal-up">
+          <p class="eyebrow">SOFTWARE ENGINEER • FULL STACK DEVELOPER </p>
+          <h1>
+            Building clean, scalable and user-friendly
+            <span class="gradient-text">web experiences</span>
+          </h1>
+          <p class="hero-subtitle">
+            I am <strong>Abarna J</strong>, a Software Engineer focused on Java, Spring Boot and Angular.
+            I love turning ideas into reliable products with thoughtful backend design and polished UI.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">View Projects</a>
+            <a class="btn btn-secondary" href="#contact">Let’s Connect</a>
+          </div>
+          <div class="hero-stats">
+            <article class="stat-card glass reveal-up" style="--delay: .1s">
+              <span class="stat-count" data-count="6">0</span>
+              <span class="stat-label">Core Tech Areas</span>
+            </article>
+            <article class="stat-card glass reveal-up" style="--delay: .2s">
+              <span class="stat-count" data-count="4">0</span>
+              <span class="stat-label">Major Project Modules</span>
+            </article>
+            <article class="stat-card glass reveal-up" style="--delay: .3s">
+              <span class="stat-count" data-count="100">0</span>
+              <span class="stat-label">Learning Mindset</span>
+            </article>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal-up" style="--delay: .15s">
+          <div class="orbit-card glass">
+            <div class="floating-ring ring-one"></div>
+            <div class="floating-ring ring-two"></div>
+            <div class="code-card glass">
+              <div class="code-topbar">
+                <span></span><span></span><span></span>
+              </div>
+              <div class="social-links-card">
+  <a 
+    href="https://github.com/Abarnajeeva" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    class="social-link github"
+    aria-label="Open GitHub profile"
+  >
+    <i class="fa-brands fa-github"></i>
+    <span>GitHub</span>
+  </a>
+
+  <a 
+    href="www.linkedin.com/in/abarna-j-382abb24b" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    class="social-link linkedin"
+    aria-label="Open LinkedIn profile"
+  >
+    <i class="fa-brands fa-linkedin"></i>
+    <span>LinkedIn</span>
+  </a>
+
+  <a 
+    href="mailto:abarnajeeva13@gmail.com" 
+    class="social-link email"
+    aria-label="Send email"
+  >
+    <i class="fa-solid fa-envelope"></i>
+    <span>Email</span>
+  </a>
+</div>
+
+            </div>
+            <div class="floating-tech tech-1">Java</div>
+            <div class="floating-tech tech-2">Spring Boot</div>
+            <div class="floating-tech tech-3">Angular</div>
+            <div class="floating-tech tech-4">REST APIs</div>
+            <div class="floating-tech tech-5">SQL</div>
+            <div class="floating-tech tech-6">NO SQL</div>
+            <div class="floating-tech tech-7">Python</div>
+            <div class="floating-tech tech-8">AI Automation</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section two-column" id="about">
+        <div class="section-heading reveal-up">
+          <p class="section-tag">ABOUT</p>
+          <h2>Professional introduction</h2>
+        </div>
+        <div class="about-grid">
+          <article class="glass panel reveal-up">
+            <p>
+              I work as a <strong>Software Engineer</strong> and enjoy building practical applications that balance
+              backend stability with clean frontend interactions. I am especially interested in learning through
+              real projects, improving code quality, and becoming stronger in enterprise-style development.
+            </p>
+            <p>
+              My portfolio style reflects how I want to work on products: elegant UI, meaningful animations,
+              thoughtful structure, and performance-conscious implementation.
+            </p>
+          </article>
+          <aside class="glass panel reveal-up" style="--delay: .1s">
+            <ul class="info-list">
+              <li><span>Name</span><strong>Abarna J</strong></li>
+              <li><span>Role</span><strong>Software Engineer</strong></li>
+              <li><span>Location</span><strong>Bangalore, India</strong></li>
+              <li><span>Email</span><strong><a href="mailto:Abarna.J@ltm.com">Abarna.J@ltm.com</a></strong></li>
+              <li><span>Primary Track</span><strong>Java • Spring Boot • Angular • Python</strong></li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section" id="skills">
+        <div class="section-heading reveal-up">
+          <p class="section-tag">SKILLS</p>
+          <h2>Technology stack and strengths</h2>
+        </div>
+        <div class="skills-grid">
+          <article class="glass skill-panel reveal-up">
+            <h3>Backend</h3>
+            <div class="chip-row">
+              <span class="chip">Java</span>
+              <span class="chip">Spring Boot</span>
+              <span class="chip">REST APIs</span>
+              <span class="chip">JPA / Hibernate</span>
+              <span class="chip">Microservices Basics</span>
+              <span class="chip">SQL</span>
+            </div>
+          </article>
+          <article class="glass skill-panel reveal-up" style="--delay: .08s">
+            <h3>Frontend</h3>
+            <div class="chip-row">
+              <span class="chip">Angular</span>
+              <span class="chip">TypeScript</span>
+              <span class="chip">HTML5</span>
+              <span class="chip">CSS3</span>
+              <span class="chip">Responsive UI</span>
+              <span class="chip">Animation UI</span>
+            </div>
+          </article>
+          <article class="glass skill-panel reveal-up" style="--delay: .16s">
+            <h3>Workflow</h3>
+            <div class="chip-row">
+              <span class="chip">Git / GitHub</span>
+              <span class="chip">Debugging</span>
+              <span class="chip">Problem Solving</span>
+              <span class="chip">Agile Mindset</span>
+              <span class="chip">Clean Architecture</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="experience">
+        <div class="section-heading reveal-up">
+          <p class="section-tag">EXPERIENCE</p>
+          <h2>Timeline and focus areas</h2>
+        </div>
+        <div class="timeline">
+          <article class="glass timeline-card reveal-left">
+            <span class="timeline-dot"></span>
+            <div>
+              <p class="timeline-period">March 2025 — October 2025</p>
+              <h3>AS400 Developer</h3>
+              <h3>Cognizant - Chennai, TN</h3>
+            </div>
+          </article>
+          <article class="glass timeline-card reveal-left">
+            <span class="timeline-dot"></span>
+            <div>
+              <p class="timeline-period">November 2025 — February 2026</p>
+              <h3>Graduate Engineer Trainee </h3>
+              <h3>LTM - Bhubaneswar, Odisha</h3>
+            </div>
+          </article>
+          <article class="glass timeline-card reveal-left">
+            <span class="timeline-dot"></span>
+            <div>
+              <p class="timeline-period">March 2026 — Present</p>
+              <h3>Software Engineer </h3>
+              <h3>LTM - Banglore, Karnataka</h3>
+              <p>
+                Strengthening full-stack skills while contributing across frontend, backend and full-stack modules.
+                Focused on enterprise workflows, API integration, clean code structure and UI improvement.
+              </p>
+            </div>
+          </article>
+          <article class="glass timeline-card reveal-right">
+            <span class="timeline-dot"></span>
+            <div>
+              <p class="timeline-period">Java Full Stack Training</p>
+              <h3>Upskilling Foundation</h3>
+              <p>
+                Built foundation in Java, Spring Boot, Angular, Git, SQL and project-oriented thinking.
+                Continued learning through practice-focused mini projects and architecture flow understanding.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="projects">
+        <div class="section-heading reveal-up">
+          <p class="section-tag">PROJECTS</p>
+          <h2>Highlighted work</h2>
+          <p class="section-caption">Click a card to open the project spotlight panel.</p>
+        </div>
+
+        <div class="filter-bar reveal-up">
+          <button class="filter-btn is-active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="frontend">Frontend</button>
+          <button class="filter-btn" data-filter="backend">Backend</button>
+          <button class="filter-btn" data-filter="fullstack">Full Stack</button>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card glass tilt-card reveal-up" data-category="frontend" data-title="Landing Page Frontend" data-description="Developed a polished landing page experience with strong layout structure, responsive behavior and user-friendly visual presentation." data-stack="Angular, HTML, CSS, UI Design">
+            <div class="project-top">
+              <span class="project-tag">Frontend</span>
+              <span class="project-index">01</span>
+            </div>
+            <h3>Landing Page Frontend</h3>
+            <p>Responsive, engaging and visually balanced entry experience for product users.</p>
+            <div class="project-stack">
+              <span>Angular</span><span>Responsive UI</span><span>Interaction Design</span>
+            </div>
+          </article>
+
+          <article class="project-card glass tilt-card reveal-up" style="--delay: .08s" data-category="backend" data-title="User Dashboard Backend" data-description="Built backend support for dashboard flows with clean service separation, request handling and API-centric thinking." data-stack="Java, Spring Boot, REST APIs, SQL">
+            <div class="project-top">
+              <span class="project-tag">Backend</span>
+              <span class="project-index">02</span>
+            </div>
+            <h3>User Dashboard Backend</h3>
+            <p>Structured backend layers with scalable request-response flow and maintainable code logic.</p>
+            <div class="project-stack">
+              <span>Java</span><span>Spring Boot</span><span>API Design</span>
+            </div>
+          </article>
+
+          <article class="project-card glass tilt-card reveal-up" style="--delay: .16s" data-category="fullstack" data-title="Application Loan Timeline" data-description="Worked full-stack on timeline-based application flow with business logic integration and frontend presentation working together." data-stack="Java, Spring Boot, Angular, SQL">
+            <div class="project-top">
+              <span class="project-tag">Full Stack</span>
+              <span class="project-index">03</span>
+            </div>
+            <h3>Application Loan Timeline</h3>
+            <p>End-to-end module combining user experience, data handling and business process visualization.</p>
+            <div class="project-stack">
+              <span>Angular</span><span>Spring Boot</span><span>Workflow UI</span>
+            </div>
+          </article>
+
+          <article class="project-card glass tilt-card reveal-up" style="--delay: .24s" data-category="fullstack" data-title="User Profile & Admin Dashboard" data-description="Handled profile and admin-focused modules with customer detail views, KYC-related functionality and full-stack coordination." data-stack="Angular, Java, Spring Boot, Admin UI">
+            <div class="project-top">
+              <span class="project-tag">Full Stack</span>
+              <span class="project-index">04</span>
+            </div>
+            <h3>User Profile & Admin Dashboard</h3>
+            <p>Integrated customer detail surfaces, profile workflows and admin-focused data visibility.</p>
+            <div class="project-stack">
+              <span>Admin UI</span><span>Backend Logic</span><span>Data Handling</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="contact">
+        <div class="contact-card glass reveal-up">
+          <div>
+            <p class="section-tag">CONTACT</p>
+            <h2>Let’s build something meaningful</h2>
+            <p>
+              If you want a developer who values structure, learning, clean APIs and polished UI, I would love to connect.
+            </p>
+          </div>
+          <div class="contact-actions">
+            <a class="btn btn-primary" href="tel:+916374566325">
+              <i class="fa-solid fa-phone"></i> Call Me
+            </a>
+            
+            <a class="btn btn-whatsapp" href="https://wa.me/916374566325" target="_blank">
+              <i class="fa-brands fa-whatsapp"></i> WhatsApp
+            </a>
+          </div>
+          <div class="contact-actions">
+            <a class="btn btn-primary" href="mailto:abarnajeeva13@gmail.com">Email Me</a>
+            <a class="btn btn-secondary" href="#">Back to Top</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> Abarna J. Software Engineer</p>
+    </footer>
+  </div>
+
+  <aside class="project-modal" id="projectModal" aria-hidden="true">
+    <div class="modal-backdrop" id="modalBackdrop"></div>
+    <div class="modal-content glass">
+      <button class="modal-close" id="modalClose" aria-label="Close project details">×</button>
+      <p class="section-tag">PROJECT SPOTLIGHT</p>
+      <h3 id="modalTitle">Project title</h3>
+      <p id="modalDescription">Project description</p>
+      <div class="modal-stack" id="modalStack"></div>
+    </div>
+  </aside>
+
+  <script src="script.js"></script>
+</body>
+</html>
